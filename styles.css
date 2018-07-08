@@ -1,0 +1,14 @@
+.ponay-thumbnail {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+
+    filter: blur(10px);
+    transform: translate(-50%);
+}
+
+
+.ponay-thumbnail img {
+    width: 100%;
+}

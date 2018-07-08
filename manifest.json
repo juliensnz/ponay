@@ -1,0 +1,74 @@
+{
+  "manifest_version": 2,
+  "name": "Ponay",
+  "version": "1.0",
+  "description": "Get images related to your selection",
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.gouv.fr/*"
+      ],
+      "js": [
+        "foreground.js"
+      ],
+      "css": [
+        "styles.css"
+      ]
+    }
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "contextMenus",
+    "webRequest",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    "*://www.youporn.com/*"
+  ]
+}
